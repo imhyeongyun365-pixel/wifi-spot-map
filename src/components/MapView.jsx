@@ -126,7 +126,7 @@ const MapView = ({ selectedSpot, spots = [] }) => {
         }
     }, [ready,selectedSpot])
 
-    return <div ref={mapRef} className='w-full h-full' />
+    return <div ref={mapRef} className='w-full h-[full]' />
 }
 
 export default MapView
