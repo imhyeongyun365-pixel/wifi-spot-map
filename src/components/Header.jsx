@@ -13,8 +13,8 @@ const Header = () => {
                 <h1 className='flex items-center gap-3'>
                     <div className='flex h-9 w-9 items-center justify-center bg-slate-900 text-white rounded-xl'>TOIL</div>
                     <div>
-                        <div className='text-base font-semibold'>Wifi Spot</div>
-                        <div className='text-xs text-slate-500'>Public Wifi Map</div>
+                        <div className='text-base font-semibold'>Public Restroom</div>
+                        <div className='text-xs text-slate-500'>Public Restroom Map</div>
                     </div>
                 </h1>
                 <nav className='flex items-center gap-2'>
