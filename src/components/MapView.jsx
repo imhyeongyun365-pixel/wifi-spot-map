@@ -7,7 +7,7 @@ const MapView = ({ selectedSpot, spots = [] }) => {
     const markersRef = useRef([])
     const infoRef = useRef(null)
 
-    const { ready } = useKakaoLoader()
+    const { ready} = useKakaoLoader()
 
     useEffect(() => {
         if (!ready) return
